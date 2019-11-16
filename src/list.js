@@ -64,7 +64,7 @@ function create(overrides = {}) {
     return (
       <div key={row.key} className="ui grid">
         <div className="eight wide column">{row.input}</div>
-        <div className="four wide column">{list.renderButtonGroup(row.buttons, locals)}</div>
+        <div className="eight wide column">{list.renderButtonGroup(row.buttons, locals)}</div>
       </div>
     )
   }
